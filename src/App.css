@@ -1,0 +1,58 @@
+body {
+  font-family: sans-serif;
+  /* background: #f0f0f0; */
+}
+
+.header {
+  text-align: center;
+  font-weight: bold;
+  font-size: larger;
+  color: blue;
+}
+
+.ProfileCard {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  border: 1px rgb(148, 144, 144) solid;
+  padding: 5px ;
+  margin: 20px;
+  box-shadow: 20px;
+  width: 250px;
+  height: 250px;
+  align-items: center;
+  justify-content: center;
+  background: rgb(249, 231, 199);
+}
+
+.name {
+  font-weight: bold;
+}
+
+.description {
+  color: dimgray;
+}
+
+.img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+
+.bth:hover {
+  background: #9d9898;
+  border: 1px rgb(104, 104, 110) solid;
+}
+
+.bth friend{
+  background: green;
+}
+
+.bth teacher{
+  background: blue;
+}
+
+.bth student{
+  background: purple;
+}
