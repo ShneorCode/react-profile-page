@@ -5,9 +5,9 @@ import Footer from "./comps/Footer";
 export default function App() {
   return (
     <div>
-      <Header></Header>
-      <Grid></Grid>
-      <Footer></Footer>
+      <Header />
+      <Grid />
+      <Footer />
     </div>
   );
 }

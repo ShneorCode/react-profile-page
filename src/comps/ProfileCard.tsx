@@ -7,7 +7,7 @@ export default function ProfileCard() {
         <img className="img" src="img01.jpg"></img>
         <p className="name">name</p>
         <p className="description">description</p>
-        <Button></Button>
+        <Button />
       </div>
     </>
   );
