@@ -10,7 +10,6 @@ body {
   align-items: center;
 }
 
-
 .header {
   text-align: center;
   font-weight: bold;
@@ -23,7 +22,7 @@ body {
   flex-direction: column;
   border-radius: 10px;
   border: 1px rgb(148, 144, 144) solid;
-  padding: 5px ;
+  padding: 5px;
   margin: 20px;
   box-shadow: 20px;
   width: 250px;
@@ -45,21 +44,20 @@ body {
   border-radius: 50px;
 }
 
-
 .bth:hover {
   background: #9d9898;
   /* border: 1px rgb(104, 104, 110) solid; */
 }
 
-.bth friend{
+.bth friend {
   background: green;
 }
 
-.bth teacher{
+.bth teacher {
   background: blue;
 }
 
-.bth student{
+.bth student {
   background: purple;
 }
 
@@ -69,4 +67,11 @@ body {
   align-items: center;
   justify-content: center;
   color: #9d9898;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    display: flex;
+    flex-direction: column;
+  }
 }
