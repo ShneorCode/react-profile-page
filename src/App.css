@@ -3,6 +3,14 @@ body {
   /* background: #f0f0f0; */
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  align-items: center;
+}
+
+
 .header {
   text-align: center;
   font-weight: bold;
@@ -55,4 +63,11 @@ body {
 
 .bth student{
   background: purple;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }

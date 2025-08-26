@@ -1,12 +1,13 @@
 import Header from "./comps/Header";
-import ProfileCard from "./comps/ProfileCard";
-import Button from "./comps/Button";
+import Grid from "./comps/Grid";
+import Footer from "./comps/Footer";
 
 export default function App() {
   return (
     <div>
       <Header></Header>
-      <ProfileCard></ProfileCard>
+      <Grid></Grid>
+      <Footer></Footer>
     </div>
   );
 }
